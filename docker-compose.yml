@@ -1,10 +1,10 @@
 api:
-  image: partnerup
+  image: flex
   environment:
     - VIRTUAL_HOST=
     - LETSENCRYPT_HOST=
     - LETSENCRYPT_EMAIL=
-  command: /usr/local/bin/partnerup-exe
+  command: /usr/local/bin/flex-exe
   ports:
     - "8080"
 nginxproxy:
