@@ -609,7 +609,7 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
-section#contact p {
+section#contact .plan-information {
   color: white;
 }
 
@@ -752,4 +752,28 @@ body {
 
 .types-of-work .glyphicon {
     font-size: 4em;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.features p {
+    font-size: 1em;
+}
+.features .excluded-feature {
+    color: #ccc;
+}
+
+.included-feature {
+    color: #fec503;
+}
+
+.features .price {
+    font-size: 1.5em;
+    font-weight: bold;
 }
