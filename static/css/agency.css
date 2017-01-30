@@ -553,64 +553,60 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-section#contact {
-  background-color: #222222;
-  background-image: url('../img/spvhcbuki6e-william-iven.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+section#getstarted {
+  background-color: #ffffff;
+  /*background-image: url('../img/spvhcbuki6e-william-iven.jpg');*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
 }
-section#contact .section-heading {
-  color: white;
+section#getstarted .section-heading {
+  /*color: white;*/
 }
-section#contact .form-group {
+section#getstarted .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#getstarted .form-group input,
+section#getstarted .form-group textarea {
   padding: 20px;
 }
-section#contact .form-group input.form-control {
+section#getstarted .form-group input.form-control {
   height: auto;
 }
-section#contact .form-group textarea.form-control {
+section#getstarted .form-group textarea.form-control {
   height: 236px;
 }
-section#contact .form-control:focus {
+section#getstarted .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
-section#contact ::-webkit-input-placeholder {
+section#getstarted ::-webkit-input-placeholder {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact :-moz-placeholder {
+section#getstarted :-moz-placeholder {
   /* Firefox 18- */
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact ::-moz-placeholder {
+section#getstarted ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact :-ms-input-placeholder {
+section#getstarted :-ms-input-placeholder {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact .text-danger {
+section#getstarted .text-danger {
   color: #e74c3c;
-}
-
-section#contact .plan-information {
-  color: white;
 }
 
 footer {
@@ -758,9 +754,9 @@ body {
     text-decoration: underline;
 }
 
-p {
-    font-size: 1.5em;
-}
+/*p {*/
+    /*font-size: 1.5em;*/
+/*}*/
 
 .features p {
     font-size: 1em;
@@ -776,4 +772,8 @@ p {
 .features .price {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.types-of-work a {
+  color: black;
 }
