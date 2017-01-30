@@ -777,3 +777,23 @@ body {
 .types-of-work a {
   color: black;
 }
+
+.company-logos {
+  text-align: justify;
+  margin-top: 5em;
+}
+.company-logos > div {
+  width: 100px; /* Declare your value. Can be in relative units. */
+  display: inline-block;
+  vertical-align: top;
+}
+.company-logos:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
