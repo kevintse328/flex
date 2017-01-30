@@ -1,5 +1,5 @@
 api:
-  image: flex
+  image: haskell:8.0.1
   environment:
     - VIRTUAL_HOST=
     - LETSENCRYPT_HOST=
